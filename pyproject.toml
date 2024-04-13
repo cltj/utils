@@ -1,13 +1,15 @@
 [tool.poetry]
 name = "utils"
 version = "0.1.0"
-description = ""
-authors = ["tj <thor.jarle.kinstad@felleskjopet.no>"]
+description = "This utils package attempts to chunk information, improve workflow and acts as a home for continious improvement"
+authors = ["cltj <tj@cloudlink.ai>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
 requests = "^2.31.0"
+azure-devops = "^7.1.0b4"
+azure-identity = "^1.16.0"
 
 
 [build-system]
